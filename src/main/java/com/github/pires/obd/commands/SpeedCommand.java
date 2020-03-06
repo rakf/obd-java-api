@@ -20,7 +20,7 @@ import com.github.pires.obd.enums.AvailableCommandNames;
  */
 public class SpeedCommand extends ObdCommand implements SystemOfUnits {
 
-    private int metricSpeed = 0;
+    private int metricSpeed = -1;
 
     /**
      * Default ctor.

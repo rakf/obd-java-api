@@ -18,7 +18,7 @@ package com.github.pires.obd.commands;
  */
 public abstract class PercentageObdCommand extends ObdCommand {
 
-    protected float percentage = 0f;
+    protected float percentage = -1f;
 
     /**
      * <p>Constructor for PercentageObdCommand.</p>
